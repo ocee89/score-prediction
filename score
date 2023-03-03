@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Premier League Match Prediction</title>
+</head>
+<body>
+    <h1>Premier League Match Prediction</h1>
+    <form>
+        <label for="game-week">Select Game Week:</label>
+        <select name="game-week" id="game-week">
+            <option value="1">Week 1</option>
+            <option value="2">Week 2</option>
+            <option value="3">Week 3</option>
+            <!-- Add more weeks here up to 38 -->
+        </select>
+        <br><br>
+        <label for="player1">Select Player 1:</label>
+        <select name="player1" id="player1">
+            <option value="yousif">Yousif</option>
+            <option value="randi">Randi</option>
+        </select>
+        <br><br>
+        <h3>Match 1</h3>
+        <label for="match1-home">Home Team:</label>
+        <select name="match1-home" id="match1-home">
+            <option value="arsenal">Arsenal</option>
+            <option value="aston-villa">Aston Villa</option>
+            <option value="brentford">Brentford</option>
+            <!-- Add more teams here -->
+        </select>
+        <label for="match1-away">Away Team:</label>
+        <select name="match1-away" id="match1-away">
+            <option value="arsenal">Arsenal</option>
+            <option value="aston-villa">Aston Villa</option>
+            <option value="brentford">Brentford</option>
+            <!-- Add more teams here -->
+        </select>
+        VS
+        <label for="match1-home-score">Home Score:</label>
+        <input type="number" name="match1-home-score" id="match1-home-score" min="0" max="10">
+        <label for="match1-away-score">Away Score:</label>
+        <input type="number" name="match1-away-score" id="match1-away-score" min="0" max="10">
+        <br><br>
+        <h3>Match 2</h3>
+        <label for="match2-home">Home Team:</label>
+        <select name="match2-home" id="match2-home">
+            <option value="arsenal">Arsenal</option>
+            <option value="aston-villa">Aston Villa</option>
+            <option value="brentford">Brentford</option>
+            <!-- Add more teams here -->
+        </select>
+        <label for="match2-away">Away Team:</label>
+        <select name="match2-away" id="match2-away">
+            <option value="arsenal">Arsenal</option>
+            <option value="aston-villa">Aston Villa</option>
+            <option value="brentford">Brentford</option>
+            <!-- Add more teams here -->
+        </select>
+        VS
+        <label for="match2-home-score">Home Score:</label>
+        <input type="number" name="match2-home-score" id="match2-home-score" min="0" max="10">
+        <label for="match2-away-score">Away Score:</label>
+        <input
